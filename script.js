@@ -1,9 +1,9 @@
 function start(){
 var c = document.getElementById("myCanvas");//canvas seleccionado
 var ctxo = c.getContext("2d");//Contexto
-var ojos = prompt("Ojos (1 - 9)");
-var boca = prompt("Boca (1 - 5)");
-var acc = prompt("Accesoios (1 - 3)");
+var ojos = prompt("Tipo de ojos (1 - 9)");
+var boca = prompt("Tipo de boca (1 - 5)");
+var acc = prompt("Otros (1 - 3)");
 ctxo.beginPath();
 ctxo.arc(250, 150, 100, 0, 2 * Math.PI);
 ctxo.stroke();
