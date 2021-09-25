@@ -1,0 +1,16 @@
+{
+"name": "Emojoy", 
+"short_name": "Emojoy", 
+"start_ur1": "/", 
+"scope": "/", 
+"display": "standalone", 
+"theme_color": "#DEF8D2", 
+"background_color": "#EEE",
+"icons": [
+  {
+  "src": "icon.png", 
+  "sizes": "512x512", 
+  "type": "image/png" 
+  }
+  ]
+}
