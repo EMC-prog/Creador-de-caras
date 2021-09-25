@@ -19,6 +19,9 @@ form{
 }
     </style>
 <script>
+  if (navigator.serviceworker){
+   navigator.serviceworker.register('sw.js') 
+  }
 function start(){
 var c = document.getElementById("myCanvas");//canvas seleccionado
 var ctxo = c.getContext("2d");//Contexto
