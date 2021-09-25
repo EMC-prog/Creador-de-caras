@@ -1,8 +1,8 @@
 {
-"name": "Emojoy", 
-"short_name": "Emojoy", 
-"start_ur1": "/", 
-"scope": "/", 
+"name": "Face maker", 
+"short_name": "FaceMaker", 
+"start_ur1": "/dev", 
+"scope": "/dev", 
 "display": "standalone", 
 "theme_color": "#DEF8D2", 
 "background_color": "#EEE",
