@@ -22,6 +22,12 @@ form{
 }
     </style>
 <script>
+  function check(){
+    if(window.navigator.userAgent.match(/Android/i) {
+    //Android browser, do something
+       alert("We have detected that you are using a mobile phone. To get a better experience, please open this on a PC.");
+}
+  }
 function start(){
 var c = document.getElementById("myCanvas");//canvas seleccionado
 var ctxo = c.getContext("2d");//Contexto
@@ -244,7 +250,7 @@ function del(){
 }
 </script>
   </head>
-<body>
+<body onload="check()">
 <div align="center">
   
 <canvas id="myCanvas" width="500" height="300">Your browser does not support the HTML canvas tag.</canvas>
