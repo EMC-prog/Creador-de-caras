@@ -22,11 +22,11 @@ form{
 }
     </style>
 <script>
-  function check(){
-    if(window.navigator.userAgent.match(/Android/i) {
-    //Android browser, do something
-       alert("We have detected that you are using a mobile phone. To get a better experience, please open this on a PC.");
-}
+window.addEventListener("load", () => {
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("service-worker.js");
+  }
+});
   }
 function start(){
 var c = document.getElementById("myCanvas");//canvas seleccionado
